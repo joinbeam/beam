@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+echo "**Running prettier & eslint...**"
 yarn format
 yarn lint

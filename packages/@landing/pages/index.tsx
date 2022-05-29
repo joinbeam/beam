@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <div className="container">
             <h1 className=""></h1>
         </div>
-    );
+    )
 }
 
 export default Home
