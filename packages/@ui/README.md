@@ -1,3 +1,3 @@
 # `@ui`
 
-This is our shared components that get used in the @landing package.
+These are shared components that are used in the `@landing` package.
