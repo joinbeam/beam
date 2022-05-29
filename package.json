@@ -5,7 +5,7 @@
     "scripts": {
         "prepare": "husky install",
         "format": "yarn prettier --write .",
-        "lint": "yarn run eslint",
+        "lint": "yarn run eslint"
     },
     "workspaces": {
         "packages": [
