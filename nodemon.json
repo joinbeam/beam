@@ -1,8 +1,9 @@
-{   "ignore": [".vercel", "node_modules", ".next", "build"]
-    "watch": [
-        "packages/@blockchain/**",
-        "packages/@api/src/**/*",
-        "packages/@web/**"
-    ],
-    ext: "ts, tsx",
+{
+	"ignore": [".vercel", "node_modules", ".next", "build"],
+	"watch": [
+		"packages/@blockchain/**",
+		"packages/@api/src/**/*",
+		"packages/@web/**"
+	],
+	"ext": "ts, tsx"
 }

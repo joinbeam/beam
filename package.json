@@ -7,11 +7,6 @@
 		"format": "yarn prettier --write .",
 		"lint": "yarn run eslint"
 	},
-	"workspaces": {
-		"packages": [
-			"packages/*"
-		]
-	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.26.0",
 		"@typescript-eslint/parser": "^5.26.0",
