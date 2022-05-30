@@ -8,6 +8,13 @@
 	},
 	"license": "GPL-3.0",
 	"author": "Andrew Nijmeh",
+	"email": "andrewnijmeh1@gmail.com",
+	"contributors": [
+		{
+			"name": "anddddrew",
+			"url": "https://github.com/anddddrew"
+		}
+	],
 	"workspaces": [
 		"packages/"
 	],
