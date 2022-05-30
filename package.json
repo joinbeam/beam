@@ -8,6 +8,9 @@
 	},
 	"license": "GPL-3.0",
 	"author": "Andrew Nijmeh",
+	"workspaces": [
+		"packages/*"
+	],
 	"scripts": {
 		"bootstrap": "lerna bootstrap",
 		"clean": "lerna clean -y",
