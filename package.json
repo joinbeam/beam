@@ -2,7 +2,16 @@
 	"name": "root",
 	"private": true,
 	"homepage": "https://github.com/joinbeam/beam",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joinbeam/beam"
+	},
+	"license": "GPL-3.0",
+	"author": "Andrew Nijmeh",
 	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"clean": "lerna clean -y",
+		"prettier:check": "yarn prettier --check .",
 		"prepare": "husky install",
 		"format": "yarn prettier --write .",
 		"lint": "yarn run eslint"
