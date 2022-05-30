@@ -1,12 +1,12 @@
 {
-    "name": "tsconfig",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "author": "Andrew Nijmeh",
-    "files": [
-        "base.json",
-        "nextjs.json",
-        "react-library.json"
-    ]
+	"name": "tsconfig",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"author": "Andrew Nijmeh",
+	"files": [
+		"base.json",
+		"nextjs.json",
+		"react-library.json"
+	]
 }
