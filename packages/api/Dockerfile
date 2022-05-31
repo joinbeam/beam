@@ -28,5 +28,3 @@ EXPOSE 8080
 
 # Start server
 CMD ["yarn", "start"]
-
-
