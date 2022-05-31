@@ -1,6 +1,8 @@
+# Set node version on alpine
 FROM node:16-alpine
 
-RUN apk add --nocache \
+# Install required dependencies
+RUN apk add --no-cache \
     g++ \
     gcc \
     yarn \
@@ -8,7 +10,23 @@ RUN apk add --nocache \
     curl \
     automake 
 
+# Set workdir
 WORKDIR /app/packages/api
 
+# Copy package.json
+COPY package*.json ./
+COPY yarn.lock ./
+
+# Install dependencies using yarn
+RUN yarn install
+
+# Copy source
+COPY . .
+
+# Expose port 8080
+EXPOSE 8080
+
+# Start server
+CMD ["yarn", "start"]
 
 
