@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 RUN mkdir -p /packages/landing/ && chown -R node:node /packages/landing
 WORKDIR /app/packages/landing
