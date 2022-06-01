@@ -1,0 +1,11 @@
+{
+	"name": "types",
+	"version": "1.0.0",
+	"description": "Types package for beam",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"ioredis": "^5.0.6",
+		"redis": "^4.1.0"
+	}
+}

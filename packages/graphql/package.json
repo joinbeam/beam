@@ -1,0 +1,16 @@
+{
+	"name": "graphql",
+	"version": "1.0.0",
+	"description": "GraphQL package for beam",
+	"main": "index.js",
+	"author": "Andrew Nijmeh",
+	"license": "GPL",
+	"devDependencies": {
+		"typescript": "^4.7.2"
+	},
+	"dependencies": {
+		"@apollo/client": "^3.6.6",
+		"graphql": "^16.5.0",
+		"rimraf": "^3.0.2"
+	}
+}
