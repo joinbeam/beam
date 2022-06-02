@@ -1,13 +1,13 @@
 // Third party imports
-import { shallow } from "enzyme";
+import { shallow } from "enzyme"
 
 // Local imports
-import Home from '../pages/index';
+import Home from "../pages/index"
 
 // Test configuration
 
-describe('Home page', function() {
-    test('outputs a component', () => {
-        expect(shallow(<Home/>)).not.toBeNull();
-    });
-});
+describe("Home page", function () {
+	test("outputs a component", () => {
+		expect(shallow(<Home />)).not.toBeNull()
+	})
+})
