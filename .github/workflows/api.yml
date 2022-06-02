@@ -1,4 +1,4 @@
-name: Landing
+name: Api
 on:
     push:
         branches: [main]
@@ -8,8 +8,7 @@ on:
             - "package.json"
             - "tsconfig.json"
             - "yarn.lock"
-            - "packages/ui/**"
-            - "packages/landing/**"
+            - "packages/api/**"
 
 jobs:
     landing:
@@ -20,7 +19,7 @@ jobs:
                   submodules: true
             - uses: actions/setup-node@v2.1.1
               with:
-                  node-version: "16.3.2"
+                  node-version: "14.4.0"
 
             - run: |
                   yarn install
