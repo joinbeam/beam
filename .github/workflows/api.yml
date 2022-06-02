@@ -15,7 +15,7 @@ jobs:
     landing:
         runs-on: ubuntu-22.04
         steps:
-            - uses: actions/checkout@c2
+            - uses: actions/checkout@v2
               with:
                   submodules: true
             - uses: actions/setup-node@v2.1.1
@@ -26,4 +26,3 @@ jobs:
                   yarn install
             - run: |
                   yarn test
-              
