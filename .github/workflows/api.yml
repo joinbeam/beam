@@ -1,0 +1,29 @@
+name: Landing
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+        paths:
+            - "package.json"
+            - "tsconfig.json"
+            - "yarn.lock"
+            - "packages/ui/**"
+            - "packages/landing/**"
+
+jobs:
+    landing:
+        runs-on: ubuntu-22.04
+        steps:
+            - uses: actions/checkout@c2
+              with:
+                  submodules: true
+            - uses: actions/setup-node@v2.1.1
+              with:
+                  node-version: "16.3.2"
+
+            - run: |
+                  yarn install
+            - run: |
+                  yarn test
+              
