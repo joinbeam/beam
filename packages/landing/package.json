@@ -11,6 +11,9 @@
 		"deploy": "vercel deploy"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.9.0",
+		"@emotion/styled": "^11.8.1",
+		"@mui/material": "^5.8.2",
 		"autoprefixer": "10.4.7",
 		"next": "12.1.6",
 		"postcss": "8.4.14",
