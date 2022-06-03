@@ -5,7 +5,7 @@ variable "vultr_seattle" {
 
 variable "ubuntu" {
     description = "Ubuntu"
-    default = 39
+    default = 37
 }
 
 variable "one_cpu_one_gb_ram" {
