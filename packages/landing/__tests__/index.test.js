@@ -1,10 +1,8 @@
-// Third party imports
 import { shallow } from "enzyme"
 
-// Local imports
 import Home from "../pages/index"
 
-// Test configuration
+configuration
 
 describe("Home page", function () {
 	test("outputs a component", () => {

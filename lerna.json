@@ -1,4 +1,11 @@
 {
 	"packages": ["packages/*"],
-	"version": "0.0.0"
+	"version": "fixed",
+	"useWoekspaces": true,
+	"npmClient": "yarn",
+	"publish": {
+		"createRelease": "github",
+		"conventionalCommits": true,
+		"message": "chore: Release %s"
+	  }
 }

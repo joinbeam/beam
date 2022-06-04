@@ -1,5 +1,5 @@
 {
-	"name": "root",
+	"name": "beam",
 	"private": true,
 	"homepage": "https://github.com/joinbeam/beam",
 	"repository": {
@@ -24,14 +24,21 @@
 		"prettier:check": "yarn prettier --check .",
 		"prepare": "husky install",
 		"format": "yarn prettier --write .",
-		"lint": "yarn run eslint"
+		"lint": "yarn run eslint",
+		"depcheck": "yarn run depcheck",
+		"publish": "lerna publish",
+		"link": "lerna link"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "5.26.0",
 		"@typescript-eslint/parser": "5.26.0",
 		"eslint": "8.16.0",
+		"husky": "8.0.1",
 		"lerna": "4.0.0",
-		"prettier": "2.6.2",
-		"husky": "8.0.1"
+		"prettier": "2.6.2"
+	},
+	"dependencies": {
+		"eslint-plugin-prettier": "^4.0.0",
+		"semantic-release": "^19.0.2"
 	}
 }
