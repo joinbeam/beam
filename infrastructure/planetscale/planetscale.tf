@@ -18,8 +18,4 @@ provider "planetscale" {
     organization = "beam-engineering"
     name         = "beam"
   }
-
-  output "database" {
-    value = "us-east-1"
-  }
 }
