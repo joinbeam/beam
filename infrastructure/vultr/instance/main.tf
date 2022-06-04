@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "vultr" {
-    # Vultr API key in bashrc exportc
+    # Put your Vultr API key in yur bashrc...
 }
 
 resource "vultr_instance" "beam_engineering" {
