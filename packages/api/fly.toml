@@ -1,6 +1,6 @@
-# fly.toml file generated for beam on 2022-06-04T15:11:35-04:00
+# fly.toml file generated for beam-api on 2022-06-05T18:32:14-04:00
 
-app = "beam"
+app = "beam-api"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
