@@ -1,9 +1,11 @@
 ---
 name: Bug report
-about: Create a report for any bug issues related to our backend, landing page or UI components.
-title: ""
-labels: ""
-assignees: ""
+about: Create a report for any bug issues related to our backend, landing page or
+  UI components.
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
 **Describe the bug**
