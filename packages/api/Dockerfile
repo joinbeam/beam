@@ -1,5 +1,5 @@
 # Set node version on alpine
-FROM node:16-alpine
+FROM node:18-alpine
 
 # Install required dependencies
 RUN apk add --no-cache \
