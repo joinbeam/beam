@@ -1,4 +1,4 @@
-name: Deploy to production
+name: Deploy API to production
 on: [push]
 jobs:
     deploy:

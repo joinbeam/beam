@@ -1,28 +1,26 @@
-name: Landing
+name: Lint Landing
+
 on:
-    push:
-        branches: [main]
-    pull_request:
-        branches: [main]
-        paths:
-            - "package.json"
-            - "tsconfig.json"
-            - "yarn.lock"
-            - "packages/ui/**"
-            - "packages/landing/**"
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-    landing:
-        runs-on: ubuntu-22.04
-        steps:
-            - uses: actions/checkout@v2
-              with:
-                  submodules: true
-            - uses: actions/setup-node@v3
-              with:
-                  node-version: "12.22.0"
+  build:
+    runs-on: ubuntu-latest
 
-            - run: |
-                  yarn install
-            - run: |
-                  yarn build
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "yarn"
+      - run: cd packages/landing
+      - run: yarn install
+      - run: yarn lint

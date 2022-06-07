@@ -11,7 +11,7 @@
 		"test": "jest",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"chromatic": "npx chromatic --project-token=1c1579967f0f"
+		"lint": "yarn run eslint"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.18.2",
@@ -23,7 +23,11 @@
 		"@storybook/manager-webpack5": "^6.5.7",
 		"@storybook/react": "^6.5.7",
 		"@storybook/testing-library": "^0.0.11",
+		"@typescript-eslint/eslint-plugin": "^5.27.1",
+		"@typescript-eslint/parser": "^5.27.1",
 		"babel-loader": "^8.2.5",
+		"eslint": "^8.17.0",
+		"eslint-plugin-react": "^7.30.0",
 		"jest": "^28.1.0",
 		"ts-jest": "^28.0.4"
 	},
@@ -34,6 +38,7 @@
 		"next": "^12.1.6",
 		"react": "^18.1.0",
 		"react-dom": "^18.1.0",
-		"rimraf": "^3.0.2"
+		"rimraf": "^3.0.2",
+		"ts-node": "^10.8.1"
 	}
 }
