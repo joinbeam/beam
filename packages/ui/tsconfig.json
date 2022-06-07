@@ -2,6 +2,6 @@
 	"extends": "../tsconfig/nextjs.json",
 	"compilerOptions": {
 		"jsx": "react",
-    "isolatedModules": false
+		"isolatedModules": false
 	}
 }

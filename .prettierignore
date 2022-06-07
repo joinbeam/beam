@@ -2,3 +2,5 @@
 dist
 target
 .next
+
+storybook-static
