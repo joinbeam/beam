@@ -3,7 +3,7 @@ import { Text } from "../../ui/src/components/Text"
 
 const Home: NextPage = () => {
 	return (
-		<div className="container">
+		<div>
 			<Text />
 		</div>
 	)
