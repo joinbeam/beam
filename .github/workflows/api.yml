@@ -11,7 +11,7 @@ on:
             - "packages/api/**"
 
 jobs:
-    landing:
+    api:
         runs-on: ubuntu-22.04
         steps:
             - uses: actions/checkout@v2
