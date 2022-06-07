@@ -3,11 +3,37 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joinbeam/beam.git"
+	},
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "build-storybook",
+		"chromatic": "npx chromatic --project-token=1c1579967f0f"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.18.2",
+		"@storybook/addon-actions": "^6.5.7",
+		"@storybook/addon-essentials": "^6.5.7",
+		"@storybook/addon-interactions": "^6.5.7",
+		"@storybook/addon-links": "^6.5.7",
+		"@storybook/builder-webpack5": "^6.5.7",
+		"@storybook/manager-webpack5": "^6.5.7",
+		"@storybook/react": "^6.5.7",
+		"@storybook/testing-library": "^0.0.11",
+		"babel-loader": "^8.2.5",
 		"jest": "^28.1.0",
 		"ts-jest": "^28.0.4"
+	},
+	"dependencies": {
+		"@types/next": "^9.0.0",
+		"@types/react": "^18.0.12",
+		"framer-motion": "^6.3.10",
+		"next": "^12.1.6",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"rimraf": "^3.0.2"
 	}
 }
