@@ -1,4 +1,4 @@
-name: Lint Landing
+name: Landing
 
 on:
     push:

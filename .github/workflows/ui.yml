@@ -1,4 +1,4 @@
-name: Lint UI
+name: UI
 
 on:
     push:
