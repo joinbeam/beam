@@ -2661,7 +2661,7 @@
     lodash.omit "4.5.0"
     tslib "2.4.0"
 
-"@nestjs/cli@8.2.6":
+"@nestjs/cli@^8.2.6":
   version "8.2.6"
   resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-8.2.6.tgz#915aef9c1c025280ab8ebc915530fa0090bcbe49"
   integrity sha512-uvwKbUZJmgdJu1D24e+uUqHnwoB/0R9hLfUJjr5pTvLlP/RJugHAdJr7m1dQe92Xzdyi36kBN4Id3RXHgfz1UA==
