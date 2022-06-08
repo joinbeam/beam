@@ -1,4 +1,4 @@
-name: Terraform Lint
+name: Lint
 
 on:
     - push

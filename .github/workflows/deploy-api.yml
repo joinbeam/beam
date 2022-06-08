@@ -1,4 +1,5 @@
-name: Deploy API
+name: API
+
 on: [push]
 jobs:
     deploy:
