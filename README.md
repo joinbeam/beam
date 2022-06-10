@@ -10,11 +10,11 @@ The beam mono repo. maintainer = [@anddddrew]
 </div>
 
 ## Jump to:
-    - [📡 Infrastructure](#-infrastructure)
-    - [🔥 Contributing](#-contributing)
-    - [👥 Contributors](#-contributors)
-    - [✅ Code of Conduct](#-code-of-conduct)
-    - [🎨 Designs](#-designss)
+- [📡 Infrastructure](#-infrastructure)
+- [🔥 Contributing](#-contributing)
+- [👥 Contributors](#-contributors)
+- [✅ Code of Conduct](#-code-of-conduct)
+- [🎨 Designs](#-designss)
 
 ## 📡 Infrastructure
 
@@ -26,7 +26,7 @@ To contribute to Beam, checkout the [CONTRIBUTING.md file](https://github.com/jo
 
 ## ✅ Code of Conduct
 
-Before contributing responding to issues and or pull requests, Please read our [CODE_OF_CONDUCT.md file](https://github.com/joinbeam/beam/blob/main/CODE_OF_CONDUCT.md). 
+Before contributing responding to issues and or pull requests, Please read our [CODE_OF_CONDUCT.md file](https://github.com/joinbeam/beam/blob/main/CODE_OF_CONDUCT.md).
 
 ## 🎨 Designs
 
@@ -34,4 +34,4 @@ Beam's designs are 100% public for people to view on [Figma](https://www.figma.c
 
 We have all website & landing page designs, mobile app designs, logos, etc on figma.
 
-*If you have any questions or concerns about the designs, email me at andrewnijmeh1@gmail.com*
+_If you have any questions or concerns about the designs, email me at andrewnijmeh1@gmail.com_
