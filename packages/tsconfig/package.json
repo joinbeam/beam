@@ -1,6 +1,6 @@
 {
 	"name": "tsconfig",
-	"version": "1.0.0",
+	"version": null,
 	"main": "index.js",
 	"license": "GPL-3.0",
 	"author": "Andrew Nijmeh",

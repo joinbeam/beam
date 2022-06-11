@@ -1,6 +1,8 @@
 {
-	"packages": ["packages/*"],
-	"version": "fixed",
+	"packages": [
+		"packages/*"
+	],
+	"version": null,
 	"useWoekspaces": true,
 	"npmClient": "yarn",
 	"publish": {

@@ -1,6 +1,6 @@
 {
 	"name": "types",
-	"version": "1.0.0",
+	"version": null,
 	"description": "Types package for beam",
 	"main": "index.js",
 	"license": "GPL-3.0",
