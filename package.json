@@ -1,6 +1,6 @@
 {
-	"name": "beam",
-	"private": true,
+	"name": "joinbeam",
+	"private": false,
 	"homepage": "https://github.com/joinbeam/beam",
 	"repository": {
 		"type": "git",
@@ -44,5 +44,5 @@
 		"eslint-plugin-prettier": "^4.0.0",
 		"semantic-release": "^19.0.2"
 	},
-	"version": "0.0.2"
+	"version": "0.0.1"
 }
