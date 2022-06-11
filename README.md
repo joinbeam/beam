@@ -37,14 +37,9 @@ Here is a breakdown of the mono repo.
 | GraphQL    | [`packages/graphql`](packages/graphql/)     |
 | Types      | [`packages/types`](packages/types)          |
 | Web        | [`packages/web`](packages/web)              |
-| Blockchain | [`packages/blockchain](packages/blockchain) |
+| Blockchain | [`packages/blockchain`](packages/blockchain) |
 | UI         | [`packages/ui`](packages/ui)                |
 | Tsconfig   | [`packages/tsconfig`](packages/tsconfig)    |
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Api  | [`packages/api`]  |
-| Landing    | [`packages/landing`](packages/landing/) |
 
 ## ✅ Code of Conduct
 
