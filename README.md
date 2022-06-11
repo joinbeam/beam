@@ -18,7 +18,6 @@ The beam mono repo. maintainer = [@anddddrew]
 -   [🎨 Designs](#-designss)
 -   [🧰 Packages](#-packages)
 
-
 ## 📡 Infrastructure
 
 You can checkout our documentation & configuration for our infrastructure [here](https://github.com/joinbeam/beam/blob/main/INFRASTRUCTURE.md)
@@ -29,7 +28,19 @@ To contribute to Beam, checkout the [CONTRIBUTING.md file](https://github.com/jo
 
 ## 🧰 Packages
 
-Here is a breakdown of each package in the `/packages` folder.
+Here is a breakdown of the mono repo.
+
+| Name | Package |
+| ------- | ------- | ------- |
+| Api | [`packages/api`](packages/api)
+| Landing | [`packages/landing`](packages/landing/)
+| GraphQL | [`packages/graphql`](packages/graphql/)
+| Types | [`packages/types`](packages/types)
+| Web | [`packages/web`](packages/web)
+| Blockchain | [`packages/blockchain](packages/blockchain)
+| UI | [`packages/ui`](packages/ui)
+| Tsconfig | [`packages/tsconfig`](packages/tsconfig)
+
 
 ## ✅ Code of Conduct
 
@@ -41,4 +52,8 @@ Beam's designs are 100% public for people to view on [Figma](https://www.figma.c
 
 We have all website & landing page designs, mobile app designs, logos, etc on figma.
 
-*If you have any questions or concerns about the designs, email me at andrewnijmeh1@gmail.com.*
+_If you have any questions or concerns about the designs, email me at andrewnijmeh1@gmail.com._
+
+## 👥 Contributors
+
+Thank you to our amazing contributors

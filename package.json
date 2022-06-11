@@ -1,6 +1,6 @@
 {
 	"name": "beam",
-	"private": true,
+	"private": false,
 	"homepage": "https://github.com/joinbeam/beam",
 	"repository": {
 		"type": "git",
@@ -26,8 +26,8 @@
 		"format": "yarn prettier --write .",
 		"lint": "yarn run eslint",
 		"depcheck": "yarn run depcheck",
-		"publish": "lerna publish",
-		"link": "lerna link",
+		"publish:lerna": "lerna publish",
+		"link:lerna": "lerna link",
 		"semantic-release": "semantic-release"
 	},
 	"devDependencies": {
@@ -44,5 +44,5 @@
 		"eslint-plugin-prettier": "^4.0.0",
 		"semantic-release": "^19.0.2"
 	},
-	"version": "0.0.0-development"
+	"version": "0.0.2"
 }
