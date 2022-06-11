@@ -1,6 +1,6 @@
 {
 	"name": "beam",
-	"private": false,
+	"private": true,
 	"homepage": "https://github.com/joinbeam/beam",
 	"repository": {
 		"type": "git",
