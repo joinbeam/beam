@@ -1,6 +1,6 @@
 {
-	"name": "ui",
-	"version": null,
+	"name": "ui-beam",
+	"version": "0.0.2",
 	"main": "index.js",
 	"license": "GPL-3.0",
 	"repository": {
