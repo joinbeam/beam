@@ -1,7 +1,7 @@
 {
-	"name": "landing",
-	"version": null,
-	"private": true,
+	"name": "landing-beam",
+	"version": "0.0.1",
+	"private": false,
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
