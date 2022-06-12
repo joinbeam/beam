@@ -1,9 +1,9 @@
 {
-	"name": "api",
-	"version": null,
+	"name": "beam-api",
+	"version": "0.0.1",
 	"description": "",
 	"author": "",
-	"private": true,
+	"private": false,
 	"license": "GPL-3.0",
 	"scripts": {
 		"prebuild": "rimraf dist",
