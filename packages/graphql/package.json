@@ -1,6 +1,6 @@
 {
-	"name": "graphql",
-	"version": null,
+	"name": "graphql-beam",
+	"version": "0.0.1",
 	"description": "GraphQL package for beam",
 	"main": "index.js",
 	"author": "Andrew Nijmeh",
