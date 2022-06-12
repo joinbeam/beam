@@ -1,12 +1,7 @@
-# beam
-
-The beam mono repo. maintainer = [@anddddrew]
-
 <div align="center">
     <h1>Beam</h1>
+    <img alt="banner for beam" src="assets/banner.png">
     <img allt="lint workflow result" src="https://github.com/gleich/lumber/workflows/lint/badge.svg">
-    <img  llt="api workflow result" src="https://github.com/joinbeam/beam/workflows/api/badge.svg">
-    <img allt="landing workflow result" src="https://github.com/joinbeam/beam/workflows/landing/badge.svg">
 </div>
 
 ## Jump to:
