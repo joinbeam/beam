@@ -15,7 +15,7 @@
 
 ## 📡 Infrastructure
 
-You can checkout our documentation & configuration for our infrastructure [here](https://github.com/joinbeam/beam/blob/main/INFRASTRUCTURE.md)
+You can checkout our documentation & configuration for our infrastructure [here](https://github.com/joinbeam/beam/blob/main/INFRASTRUCTURE.md).
 
 ## 🔥 Contributing
 
@@ -42,7 +42,7 @@ Before contributing responding to issues and or pull requests, Please read our [
 
 ## 🎨 Designs
 
-Beam's designs are 100% public for people to view on [Figma](https://www.figma.com/file/Fg4dD1yrJKmAh8i8Qd9Lum/Beam-App-Designs?node-id=19%3A43)
+Beam's designs are 100% public for people to view on [Figma](https://www.figma.com/file/Fg4dD1yrJKmAh8i8Qd9Lum/Beam-App-Designs?node-id=19%3A43).
 
 We have all website & landing page designs, mobile app designs, logos, etc on figma.
 
@@ -50,4 +50,15 @@ _If you have any questions or concerns about the designs, email me at andrewnijm
 
 ## 👥 Contributors
 
-Thank you to our amazing contributors
+Thank you to our amazing contributors:
+
+| Name       | Package                                     |
+| ---------- | ------------------------------------------- |
+| Api        | [`packages/api`](packages/api)              |
+| Landing    | [`packages/landing`](packages/landing/)     |
+| GraphQL    | [`packages/graphql`](packages/graphql/)     |
+| Types      | [`packages/types`](packages/types)          |
+| Web        | [`packages/web`](packages/web)              |
+| Blockchain | [`packages/blockchain`](packages/blockchain) |
+| UI         | [`packages/ui`](packages/ui)                |
+| Tsconfig   | [`packages/tsconfig`](packages/tsconfig)    |
