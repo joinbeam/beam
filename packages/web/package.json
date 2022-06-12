@@ -1,7 +1,7 @@
 {
-	"name": "web",
-	"version": null,
-	"private": true,
+	"name": "web-beam",
+	"version": "0.0.1",
+	"private": false,
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
