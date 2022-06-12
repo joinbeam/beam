@@ -1,5 +1,5 @@
 {
-	"name": "tsconfig",
+	"name": "beam-tsconfig",
 	"version": null,
 	"main": "index.js",
 	"license": "GPL-3.0",
