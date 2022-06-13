@@ -52,13 +52,5 @@ _If you have any questions or concerns about the designs, email me at andrewnijm
 
 Thank you to our amazing contributors:
 
-| Name       | Package                                     |
-| ---------- | ------------------------------------------- |
-| Api        | [`packages/api`](packages/api)              |
-| Landing    | [`packages/landing`](packages/landing/)     |
-| GraphQL    | [`packages/graphql`](packages/graphql/)     |
-| Types      | [`packages/types`](packages/types)          |
-| Web        | [`packages/web`](packages/web)              |
-| Blockchain | [`packages/blockchain`](packages/blockchain) |
-| UI         | [`packages/ui`](packages/ui)                |
-| Tsconfig   | [`packages/tsconfig`](packages/tsconfig)    |
+- [Andrew Nijmeh](https://twitter.com/0xnijmeh)
+- *You could be here!*
