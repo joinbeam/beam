@@ -1,5 +1,4 @@
 <div align="center">
-    <h1>Beam</h1>
     <img alt="banner for beam" src="assets/banner.png">
     <img allt="lint workflow result" src="https://github.com/gleich/lumber/workflows/lint/badge.svg">
 </div>
