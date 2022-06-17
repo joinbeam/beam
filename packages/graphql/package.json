@@ -6,7 +6,7 @@
 	"author": "Andrew Nijmeh",
 	"license": "GPL",
 	"devDependencies": {
-		"typescript": "4.7.2"
+		"typescript": "4.7.4"
 	},
 	"dependencies": {
 		"@apollo/client": "^3.6.6",
